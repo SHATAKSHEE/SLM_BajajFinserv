@@ -1,0 +1,15 @@
+{"time":"2024-11-29T02:51:13.250336+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-29T02:51:13.250431+05:30","level":"INFO","msg":"created symlink","path":"/Users/architraj/Documents/LLM/SLM/wandb/offline-run-20241129_025113-bo88215b/logs/debug-core.log"}
+{"time":"2024-11-29T02:51:13.370879+05:30","level":"INFO","msg":"created new stream","id":"bo88215b"}
+{"time":"2024-11-29T02:51:13.370917+05:30","level":"INFO","msg":"stream: started","id":"bo88215b"}
+{"time":"2024-11-29T02:51:13.370944+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bo88215b"}
+{"time":"2024-11-29T02:51:13.37097+05:30","level":"INFO","msg":"handler: started","stream_id":"bo88215b"}
+{"time":"2024-11-29T02:51:13.370968+05:30","level":"INFO","msg":"sender: started","stream_id":"bo88215b"}
+{"time":"2024-11-29T02:51:13.376073+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T02:51:25.713233+05:30","level":"INFO","msg":"stream: closing","id":"bo88215b"}
+{"time":"2024-11-29T02:51:25.713611+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T02:51:25.715052+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T02:51:25.716357+05:30","level":"INFO","msg":"handler: closed","stream_id":"bo88215b"}
+{"time":"2024-11-29T02:51:25.716357+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bo88215b"}
+{"time":"2024-11-29T02:51:25.716436+05:30","level":"INFO","msg":"sender: closed","stream_id":"bo88215b"}
+{"time":"2024-11-29T02:51:25.71675+05:30","level":"INFO","msg":"stream: closed","id":"bo88215b"}

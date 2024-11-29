@@ -1,0 +1,34 @@
+{
+  "os":  "macOS-15.1-arm64-arm-64bit",
+  "python":  "3.9.18",
+  "startedAt":  "2024-11-28T21:25:01.847945Z",
+  "program":  "/Users/architraj/Documents/LLM/SLM/train.py",
+  "codePath":  "train.py",
+  "root":  "/Users/architraj/Documents/LLM/SLM",
+  "host":  "M-FVFG4128Q05N.local",
+  "username":  "architraj",
+  "executable":  "/Users/architraj/anaconda3/envs/risk/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "226586984448"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M1",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  8,
+    "memoryGb":  16
+  }
+}

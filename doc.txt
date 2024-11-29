@@ -1,0 +1,231 @@
+# Medical QA Chatbot Documentation
+
+## Project Overview
+This project implements a medical question-answering chatbot that provides general health information while maintaining strict ethical guidelines and medical communication standards.
+
+## Project Structure
+```
+medical-qa-chatbot/
+├── config/
+│   └── model_config.yaml    # Model and training configuration
+├── data/
+│   ├── medical_qa_train.json    # Training dataset
+│   └── medical_qa_eval.json     # Evaluation dataset
+├── docs/
+│   └── project_documentation.md # This documentation
+├── kor_schema.yaml          # Knowledge organization schema
+├── prepare_dataset.py       # Dataset preparation script
+├── train.py                 # Model training script
+└── requirements.txt         # Project dependencies
+```
+
+## Component Details
+
+### 1. Configuration (model_config.yaml)
+```yaml
+model:
+  name: "microsoft/phi-1_5"  # Base model
+  max_length: 256           # Maximum token length
+  temperature: 0.7         # Response randomness
+  top_p: 0.9              # Nucleus sampling parameter
+
+training:
+  batch_size: 4           # Training batch size
+  learning_rate: 2e-5     # Learning rate
+  num_epochs: 3           # Training epochs
+```
+
+Key configurations for model behavior and training parameters.
+
+### 2. Knowledge Schema (kor_schema.yaml)
+Defines the chatbot's:
+- Knowledge domains
+- Response constraints
+- Ethical guidelines
+- Quality metrics
+- Deployment constraints
+
+### 3. Data Preparation (prepare_dataset.py)
+```python
+def convert_csv_to_json():
+    # Converts CSV dataset to JSON format
+    # Splits data into training and evaluation sets
+```
+
+**Usage:**
+```bash
+python prepare_dataset.py
+```
+
+### 4. Model Training (train.py)
+Key components:
+- Data loading and preprocessing
+- Model initialization with LoRA
+- Training configuration
+- Model training and saving
+
+**Usage:**
+```bash
+python train.py
+```
+
+## Setup Instructions
+
+1. **Environment Setup**
+```bash
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# or
+.\venv\Scripts\activate  # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+2. **Data Preparation**
+```bash
+# Convert CSV dataset to JSON format
+python prepare_dataset.py
+```
+
+3. **Model Training**
+```bash
+# Start training
+python train.py
+```
+
+## Key Features
+
+### 1. Ethical Constraints
+- No specific medical diagnoses
+- No prescription recommendations
+- Always includes medical disclaimers
+- Encourages professional consultation
+
+### 2. Response Structure
+Each response includes:
+- General information
+- Lifestyle recommendations
+- Professional advice guidance
+- Medical disclaimer
+
+### 3. Safety Measures
+- Input validation
+- Content restrictions
+- Privacy protection
+- Clear scope limitations
+
+## Model Details
+
+### Base Model
+- **Model**: Microsoft Phi-1.5
+- **Type**: Small Language Model
+- **Specialization**: Medical domain
+- **Context Window**: 256 tokens
+- **Response Length**: Up to 300 tokens
+
+### Fine-tuning Approach
+- Uses LoRA for efficient adaptation
+- Maintains model boundaries
+- Focuses on general health information
+- Preserves ethical guidelines
+
+## Quality Assurance
+
+### Metrics Monitored
+1. **Accuracy**
+   - Medical information correctness
+   - Guideline adherence
+
+2. **Safety**
+   - Ethical compliance
+   - Disclaimer inclusion
+   - Boundary maintenance
+
+3. **User Experience**
+   - Response clarity
+   - Helpfulness
+   - Appropriate tone
+
+## Deployment Guidelines
+
+1. **Prerequisites**
+   - Python 3.8+
+   - Required packages installed
+   - GPU recommended for training
+
+2. **Safety Checks**
+   - Regular content review
+   - Response validation
+   - Privacy compliance
+   - Scope verification
+
+3. **Maintenance**
+   - Regular model updates
+   - Content reviews
+   - Performance monitoring
+   - User feedback integration
+
+## Limitations and Boundaries
+
+The chatbot:
+- Cannot provide specific medical advice
+- Does not handle emergency situations
+- Does not make diagnoses
+- Does not recommend treatments
+- Always defers to healthcare professionals
+
+## Best Practices
+
+1. **Data Handling**
+   - Regular dataset updates
+   - Quality validation
+   - Privacy protection
+   - Expert review
+
+2. **Model Usage**
+   - Regular evaluation
+   - Response monitoring
+   - Feedback integration
+   - Performance tracking
+
+3. **User Communication**
+   - Clear disclaimers
+   - Scope explanation
+   - Professional referral
+   - Transparent limitations
+
+## Support and Contact
+
+For technical issues or questions:
+1. Check existing documentation
+2. Review code comments
+3. Contact project maintainers
+4. Submit detailed bug reports
+
+## Future Improvements
+
+Planned enhancements:
+1. Expanded knowledge base
+2. Improved response accuracy
+3. Enhanced safety measures
+4. Better user experience
+5. Additional language support
+```
+
+This documentation provides:
+- Clear project structure
+- Setup instructions
+- Component details
+- Usage guidelines
+- Safety measures
+- Best practices
+- Future improvements
+
+It helps new team members understand:
+- Project architecture
+- Implementation details
+- Safety constraints
+- Deployment requirements
+- Maintenance procedures

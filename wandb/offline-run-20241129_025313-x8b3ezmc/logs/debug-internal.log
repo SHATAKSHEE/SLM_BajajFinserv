@@ -1,0 +1,15 @@
+{"time":"2024-11-29T02:53:13.77979+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-29T02:53:13.779855+05:30","level":"INFO","msg":"created symlink","path":"/Users/architraj/Documents/LLM/SLM/wandb/offline-run-20241129_025313-x8b3ezmc/logs/debug-core.log"}
+{"time":"2024-11-29T02:53:13.899589+05:30","level":"INFO","msg":"created new stream","id":"x8b3ezmc"}
+{"time":"2024-11-29T02:53:13.899647+05:30","level":"INFO","msg":"stream: started","id":"x8b3ezmc"}
+{"time":"2024-11-29T02:53:13.899688+05:30","level":"INFO","msg":"sender: started","stream_id":"x8b3ezmc"}
+{"time":"2024-11-29T02:53:13.899712+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"x8b3ezmc"}
+{"time":"2024-11-29T02:53:13.899731+05:30","level":"INFO","msg":"handler: started","stream_id":"x8b3ezmc"}
+{"time":"2024-11-29T02:53:13.905024+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T02:53:23.198352+05:30","level":"INFO","msg":"stream: closing","id":"x8b3ezmc"}
+{"time":"2024-11-29T02:53:23.200168+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T02:53:23.212015+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T02:53:23.214345+05:30","level":"INFO","msg":"sender: closed","stream_id":"x8b3ezmc"}
+{"time":"2024-11-29T02:53:23.214329+05:30","level":"INFO","msg":"handler: closed","stream_id":"x8b3ezmc"}
+{"time":"2024-11-29T02:53:23.214352+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"x8b3ezmc"}
+{"time":"2024-11-29T02:53:23.214609+05:30","level":"INFO","msg":"stream: closed","id":"x8b3ezmc"}

@@ -1,0 +1,15 @@
+{"time":"2024-11-29T02:55:01.919608+05:30","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-29T02:55:01.919706+05:30","level":"INFO","msg":"created symlink","path":"/Users/architraj/Documents/LLM/SLM/wandb/offline-run-20241129_025501-chx5ntqo/logs/debug-core.log"}
+{"time":"2024-11-29T02:55:02.035329+05:30","level":"INFO","msg":"created new stream","id":"chx5ntqo"}
+{"time":"2024-11-29T02:55:02.035368+05:30","level":"INFO","msg":"stream: started","id":"chx5ntqo"}
+{"time":"2024-11-29T02:55:02.035387+05:30","level":"INFO","msg":"sender: started","stream_id":"chx5ntqo"}
+{"time":"2024-11-29T02:55:02.035386+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"chx5ntqo"}
+{"time":"2024-11-29T02:55:02.035416+05:30","level":"INFO","msg":"handler: started","stream_id":"chx5ntqo"}
+{"time":"2024-11-29T02:55:02.04452+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T02:56:03.94534+05:30","level":"INFO","msg":"stream: closing","id":"chx5ntqo"}
+{"time":"2024-11-29T02:56:03.948881+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T02:56:03.983654+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T02:56:03.986109+05:30","level":"INFO","msg":"sender: closed","stream_id":"chx5ntqo"}
+{"time":"2024-11-29T02:56:03.986148+05:30","level":"INFO","msg":"handler: closed","stream_id":"chx5ntqo"}
+{"time":"2024-11-29T02:56:03.986147+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"chx5ntqo"}
+{"time":"2024-11-29T02:56:03.986507+05:30","level":"INFO","msg":"stream: closed","id":"chx5ntqo"}
